@@ -11,7 +11,7 @@ pip install -e modflow
 or if using from a colab you should be able to pip install the main branch as
 
 ```
-pip install "modflow @git+https://github.com/cms-flashsim/modflow"
+pip install "modflow @ git+https://github.com/cms-flashsim/modflow"
 ```
 
 ### Use
