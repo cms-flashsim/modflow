@@ -19,7 +19,8 @@ pip install "modflow @git+https://github.com/cms-flashsim/modflow"
 At the moment we have modded three classes of transform. They are the AutoregressiveAffine, AutoregressiveRQSpline, CouplingRQSpline. To use them install the package and then do:
 
 ```py 
-from modflow.transformers import (MaskedAffineAutoregressiveTransform,              MaskedPiecewiseRationalQuadraticAutoregressiveTransform,
+from modflow.transformers import (MaskedAffineAutoregressiveTransform,
+MaskedPiecewiseRationalQuadraticAutoregressiveTransform,
 PiecewiseRationalQuadraticCouplingTransform)
 ```
 
