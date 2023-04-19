@@ -9,17 +9,16 @@ import os
 
 sys.path.insert(0, os.path.join("..", "utils"))
 
-
 from nflows.transforms.autoregressive import AutoregressiveTransform
 from nflows.utils import torchutils
 
-from coupling import PiecewiseCouplingTransform
-import made as made_module
-from rqsplines import (
+from modflow.coupling import PiecewiseCouplingTransform
+import modflow.made as made_module
+from modflow.rqsplines import (
     unconstrained_rational_quadratic_spline,
     rational_quadratic_spline,
 )
-import rqsplines
+import modflow.rqsplines as rqsplines
 
 
 class MaskedAffineAutoregressiveTransform(AutoregressiveTransform):
