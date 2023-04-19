@@ -25,3 +25,4 @@ PiecewiseRationalQuadraticCouplingTransform)
 ```
 
 Compared to nflows they have only one additional input argument `init_identity` which is `True` by default.
+Note that the names are the same as nflows so if you need both maybe use a `import xyz as jkl` syntax.
